@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Ballet Balance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>The Ballet Balance 🩰</h1>
+  <p>Train smart. Dance longer. Stay strong.</p>
+</header>
+
+<div class="container">
+
+  <!-- ABOUT -->
+  <div class="post">
+    <div class="accent">🩰 ✨ 🩰</div>
+    <h2>About This Blog</h2>
+    <p>
+      This blog shares awareness about overtraining in ballet and how it affects both physical and mental health.
+    </p>
+  </div>
+
+  <!-- PODCAST -->
+  <div class="post">
+    <div class="accent">🎧 🎀 🎧</div>
+    <h2>Podcast: Overtraining in Ballet</h2>
+
+    <textarea rows="4" class="desc-box">
+Write your podcast description here...
+    </textarea>
+
+    <button onclick="togglePodcast()">Show Podcast</button>
+
+    <div id="podcast" class="hidden">
+      <iframe src="https://drive.google.com/file/d/1hgNmrdAVY1_6Xz_YjhIr1R4niKQE6R73/preview" allow="autoplay"></iframe>
+    </div>
+  </div>
+
+  <!-- FLYER -->
+  <div class="post">
+    <div class="accent">📘 🩰 📘</div>
+    <h2>My Ballet Health Guide</h2>
+    <p>Click below to view my e-flyer:</p>
+
+    <a href="https://canva.link/mrjake81jrsldtl" target="_blank">
+      <button>Open E-Flyer</button>
+    </a>
+  </div>
+
+  <!-- MESSAGE -->
+  <div class="post">
+    <div class="accent">✨ 🩰 ✨</div>
+    <h2>Final Message</h2>
+    <p>
+      Overtraining can harm both your body and mind. Train smart and take care of yourself.
+    </p>
+
+    <button onclick="showQuote()">Click for Quote</button>
+    <p id="quote" class="hidden"></p>
+  </div>
+
+</div>
+
+<footer>
+  <p>Made by Naura 🩰</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
